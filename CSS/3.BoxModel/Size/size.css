@@ -1,0 +1,12 @@
+#first{
+    background:yellow;
+    max-width: 300px;
+    height: 450px;
+    overflow: hidden;
+}
+#second{
+    background: red;
+    width: 500px;
+    max-height: 200px;
+
+}

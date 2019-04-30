@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../Font\ face/roboto-regular-webfont.woff2') format('woff2'),
+         url('../Font\ face/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#naslov {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first{
+font-family: 'robotoregular';
+font-style: oblique;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+#second{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+#third {
+    font-family: 'robotoregular';
+}
+#third > span {
+    font-weight: bold;
+    font-style: italic;
+}
