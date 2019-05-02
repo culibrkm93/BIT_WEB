@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+.cf::after,
+.cf::before {
+    display: table;
+    content:"";
+}
+
+.cf::after
+{
+    clear: both;
+}
+.prvi{
+    background-color: brown;
+    width: 750px;
+    margin: 0 auto;
+}
+.drugi{
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+div{
+        position: relative;
+
+}
+ul li{
+    list-style-type: none;
+}
+.cf ul {
+    float: right;
+    position: relative;
+    
+}
+
+.cf li {
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px;
+    color: white;
+}
+.first{
+    background-color: gold;
+    width: 200px;
+
+}
+.first li{
+    border-bottom: 1px solid gray;
+    padding: 0 5px;
+}

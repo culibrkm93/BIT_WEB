@@ -1,0 +1,60 @@
+/*static (normal flow) - default pozicija;
+relative positioning - pozicioniramo relativno u odnosu na default poziciju;
+absolute positioning - pozicioniranje u odnosu na parent; parent treba da bude isto setovan abosolute,relative... ali da nije static; 
+iscupan je i stavljamo gde hocemo; ostali elementi se ponasaju kao da on nije bio tu i pomeraju se na njegovo mesto; 
+fixed position - on se pozicionirana u odnosu na prozor; ostaje na tom mestu uvek i kad se skrola stranica;
+sticky - kombinacija relative i fix; 
+fixed --> left 50%  od ivice parenta i margin left je -50% da bi bilo u sredini*/
+
+/*child float:left, parent se skupio u visinu 0;
+na parent dodajemo klasu class="cf" recimo, clasa ce da radi 
+.cf::before, .cf::after {content=""; display:table} 
+cf:after:{clear:both;}
+*/
+
+
+
+body {
+    position: relative;
+}
+
+
+#first {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px 10px rgba(5, 4, 4, 0.5);
+}
+#second {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border-radius: 50%;
+    border:10px solid black;
+    box-shadow: 10px 10px 10px 10px rgba(5, 4, 4, 0.5);
+}
+
+#third {
+    position: absolute;
+    bottom: 0px;
+}
+#top{
+    position: fixed;
+    right:0px;
+    bottom: 0px;
+    width: 70px;
+    height: 70px;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    line-height: 70px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: white;
+    
+}

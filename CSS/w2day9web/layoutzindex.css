@@ -1,0 +1,77 @@
+/*
+z-index -> odredjuje koji element ce biti napred; negativnu vrednost nemoj stavljati zbog baga!
+ dakle moze od 0 do beskonacno; veca vrednost je napred i pobedjuje!!! :D ; position mora biti bilo koja osim static;
+
+*/
+
+/*float - pomera se levo ili desno sto je vise moguce; svi ostali ce se wrapovati; poredjace se jedan do drugog; levo ide 1234; a desno 4321; da bismo ove desno stavili 1234, ul-float:right; li-float left; */
+/* */
+
+
+body {
+    position: relative;
+    left:50%;
+    margin-left:-250px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+
+}
+
+#first {
+    background-color: crimson;
+}
+
+#second {
+    background-color: blue;
+}
+
+#third {
+    background-color: goldenrod;
+}
+
+/*drugi deo */
+
+#fourth {
+    background-color: crimson;
+   
+}
+
+#fifth {
+
+    background-color: blue;
+    position: absolute;
+    top: 762px;
+    left: 100px;
+}
+
+#sixth {
+    background-color: goldenrod;
+    position: absolute;
+    top: 862px;
+    left: 200px;
+}
+
+#seventh {
+    background-color: crimson;
+    position:absolute;
+    right:0px;
+    z-index: 2;
+}
+
+#eight {
+    background-color: blue;
+    position:absolute;
+    right:100px;
+    top:1180px;
+    z-index: 1;
+}
+
+#ninth {
+    background-color: goldenrod;
+    position:absolute;
+    right:200px;
+    top:1280px;
+}
