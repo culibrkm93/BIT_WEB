@@ -1,0 +1,25 @@
+.cf::after,
+.cf::before {
+    display: table;
+    content:"";
+}
+
+.cf::after
+{
+    clear: both;
+}
+
+.imgone {
+    height: 200px;
+    float: right;
+}
+.imgtwo{
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+}
+.imgthree {
+    width: 200px;
+    height: 200px;
+    float: left;
+}

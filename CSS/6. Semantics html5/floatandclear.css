@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+}
+.cf::after,
+.cf::before {
+    display: table;
+    content:"";
+}
+
+.cf::after
+{
+    clear: both;
+}
+.prvi{
+    background-color: brown;
+    width: 1000px;
+    margin: 0 auto;
+}
+.drugi{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    
+}
+div{
+        position: relative;
+
+}
+ul li{
+    list-style-type: none;
+}
+ul {
+    float: right;
+    position: relative;
+    
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px;
+    color: white;
+}
+ 
+
+    
+
+.lists{
+    width:1000px;
+    margin: 0 auto;
+}
+
+
+.mainlist li{
+    float: left;
+    position: relative;
+    width: 30%;
+    height: 350px;
+    margin: 16px;
+    margin-bottom: 10px;
+    color: black;
+    overflow:hidden;
+
+}
+.secondlist li{
+    border-bottom: 1px solid gray;
+    padding: 0 5px;
+    background-color: gold;
+    width: 200px;
+    height: 45px;
+    margin: 0;
+    color: black;
+}
+
+.oneandsix{
+    background-color: #c1392b;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 85px;
+    box-sizing: border-box;
+}
+.twoandseven{
+    background-color: #2d3e50;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 85px;
+    box-sizing: border-box;
+}
+.fourandeight{
+    background-color: #ffbe00;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 85px;
+    box-sizing: border-box;
+}
+.fiveandnine{
+    background-color: #27ae61;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 85px;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #2d3e50;
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+
+}
