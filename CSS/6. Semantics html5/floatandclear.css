@@ -56,7 +56,7 @@ li {
     float: left;
     position: relative;
     width: 30%;
-    height: 350px;
+    height: 360px;
     margin: 16px;
     margin-bottom: 10px;
     color: black;
@@ -68,9 +68,12 @@ li {
     padding: 0 5px;
     background-color: gold;
     width: 200px;
-    height: 45px;
+    height: 50px;
     margin: 0;
     color: black;
+    font-size: 20px;
+    box-sizing: border-box;
+
 }
 
 .oneandsix{

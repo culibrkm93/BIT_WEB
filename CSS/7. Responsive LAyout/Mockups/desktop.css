@@ -1,0 +1,179 @@
+.clear:before,
+.clear:after {
+    display: table;
+    content: '';
+}
+
+.clear:after {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container .menu2{
+    display: none;
+}
+
+h1 {
+    font-weight: 400;
+    float: left;
+    margin: 0;
+    color: rgb(66, 0, 128);
+}
+
+.minimal-header {
+    padding: 20px 0;
+}
+
+.minimal-header nav {
+    float: right;
+    padding: 10px 0;
+}
+
+.minimal-header ul {
+    margin: 0;
+    padding:0;
+}
+
+.minimal-header ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.minimal-header ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(44, 44, 214);
+}
+
+.minimal-header ul li:hover a {
+    color: #fff;
+    background-color:  rgb(88, 88, 235);
+    border-radius: 5px;
+}
+
+.retro-banner {
+    margin-bottom: 30px;
+    padding: 20px 20px 17px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.retro-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+#retro-posts {
+    width: 100%;
+}
+
+#retro-posts article {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#retro-posts article:last-child {
+    margin-right: 0;
+}
+
+#retro-posts article img {
+    width: 100%;
+}
+#retro-posts article p{
+    margin: 0;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width:768px){
+    #retro-posts article {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    #retro-posts article img {
+        float: left;
+        width: 40%;
+
+    }   
+    #retro-posts article p {
+        float: left;
+        width: 60%;
+        padding: 10px;
+        box-sizing: border-box;
+
+    }   
+}
+@media only screen and (max-width:414px){
+    h1{
+       text-align: center;
+       float: none;
+    }
+    .container .menu1{
+        display: none;
+    }
+    .container .menu2{
+        display:block;
+       
+    }
+    .container .menu2 ul{
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+    .container .menu2 ul li{
+        list-style-type:  none;
+    }    
+
+    .container .menu2 ul li a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: rgb(44, 44, 214);
+        border: 1px solid #ccc;
+        border-bottom: 0;
+    }
+
+    .container .menu2 ul li:last-child a {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .container .menu2 ul li:hover a {
+        color: #fff;
+        background-color:  rgb(88, 88, 235);
+        border-radius: 5px;
+    }
+
+    #retro-posts article {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    #retro-posts article img,
+    #retro-posts article p {
+        width: 100%;
+        float:none;
+    }
+}

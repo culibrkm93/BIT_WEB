@@ -1,0 +1,67 @@
+.cf::after,
+.cf::before {
+    display: table;
+    content:"";
+}
+
+.cf::after {
+    clear: both;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 32px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h5 {
+    font-weight: 300;
+    margin: 6px 0 0 0;
+}
+
+.image{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.head{
+    margin: 30px 10px 50px 0;
+    height: 160px;
+}
+
+ section {
+    position: relative;
+    box-sizing: border-box; 
+    padding: 0 20px;
+}
+
+.left-section{
+    float: left;
+    width: 40%;
+    padding-left: 0; 
+}
+
+.right-section{
+    width: 60%;
+    float: right;
+    border-left: solid 2px black;
+}
