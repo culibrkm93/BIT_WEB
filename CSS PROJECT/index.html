@@ -16,6 +16,14 @@
                 <span class="logo-half">BUILD</span> ESTATE
             </h1>
         </div>
+        <nav class="main-menu">
+            <ul class="clear">
+                <li><a href="index.html">HOME</a> </li>
+                <li> <a href="#">ABOUT</a> </li>
+                <li> <a href="#">SERVICES</a></li>
+                <li> <a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
         <nav class="mobile-menu">
             <ul>
                 <li><a href="index.html">HOME</a> </li>
@@ -24,20 +32,14 @@
                 <li> <a href="#">CONTACT US</a></li>
             </ul>
         </nav>
-        <nav class="mobile-menu-two">
-            <ul>
-                <li><a href="index.html">HOME</a> </li>
-                <li> <a href="#">ABOUT</a> </li>
-                <li> <a href="#">SERVICES</a></li>
-                <li> <a href="#">CONTACT US</a></li>
-            </ul>
-        </nav>
     </header>
-    <section class="main-banner clear">
-        <h1>WE SHAPE OUR BUILDINGS THEREAFTER THEY SHAPE US</h1>
-        <span class="banner-button">
-            <a href="#">Read More</a>
-        </span>
+    <section class="main-banner">
+        <div class="inner-holder">
+            <h1>WE SHAPE OUR BUILDINGS THEREAFTER THEY SHAPE US</h1>
+            <a href="#" class="banner-button">
+                <span>Read More</span>
+            </a>
+        </div>
     </section>
     <main class="content">
         <div class="title-section">
@@ -46,28 +48,32 @@
                 <span class="box"></span>
             </span>
         </div>
-        <section class="intro-section">
-            <h2>Welcome To Our Build Estate</h2>
-            <q class="quote">If you can build buildings, why sit on the beach? We always think of buildings in their
-                settings, but so
-                do other architects.</q>
-            <ul class="list-qualities">
-                <li>International Office Buildings.</li>
-                <li>Apartment On Premier House.</li>
-                <li>Prices Are Low & Parking Allowance.</li>
-                <li>Best Design Architecture.</li>
-            </ul>
+        <section class="intro-section clear">
+            <div class="intro-section-left">
+                <h2>Welcome To Our Build Estate</h2>
+                <q class="quote">If you can build buildings, why sit on the beach? We always think of buildings in their
+                    settings, but so
+                    do other architects.</q>
+                <ul class="list-qualities">
+                    <li>International Office Buildings.</li>
+                    <li>Apartment On Premier House.</li>
+                    <li>Prices Are Low & Parking Allowance.</li>
+                    <li>Best Design Architecture.</li>
+                </ul>
+            </div>
             <img class="building" src="./images/about.jpg" alt="building">
-            <h2>We Make Your Dream Home</h2>
-            <q class="quote">For decades engineers have stood accused that their buildings do not have any cultural
-                value. We have
-                attempted to liberate engineering of this accusation.</q>
-            <ul class="list-qualities">
-                <li>Great Engineers Ideas.</li>
-                <li>Planning For Future Model Buildings.</li>
-                <li>Modern Apartment With Large Space.</li>
-                <li>New Residential Complex Features.</li>
-            </ul>
+            <div class="intro-section-right">
+                <h2>We Make Your Dream Home</h2>
+                <q class="quote">For decades engineers have stood accused that their buildings do not have any cultural
+                    value. We have
+                    attempted to liberate engineering of this accusation.</q>
+                <ul class="list-qualities">
+                    <li>Great Engineers Ideas.</li>
+                    <li>Planning For Future Model Buildings.</li>
+                    <li>Modern Apartment With Large Space.</li>
+                    <li>New Residential Complex Features.</li>
+                </ul>
+            </div>
         </section>
         <div class="title-section">
             <h1>What People Say</h1>
@@ -75,7 +81,7 @@
                 <span class="box"></span>
             </span>
         </div>
-        <section class="reviews">
+        <section class="reviews clear">
             <article>
                 <div class="clear">
                     <img class="users" src="./images/t1.jpg" alt="mustache-guy">
@@ -110,8 +116,8 @@
                 <span class="box"></span>
             </span>
         </div>
-        <section class="clear in-touch">
-            <div class="clear color-box">
+        <section class="in-touch clear">
+            <div class="color-box clear">
                 <h2>CONTACT US</h2>
                 <img class="icons" src="./images/phone.png" alt="phone">
                 <p>+0(12) 000 123 3210</p>
@@ -130,9 +136,7 @@
             <div class="clear color-box">
                 <h2>ADDRESS</h2>
                 <img class="icons" src="./images/pin.png" alt="pin">
-                <p>1689 Richmond St,<br>
-                    Corner in, ON N58 3d7,<br>
-                    USA</p>
+                <p>1689 Richmond St, Corner in, ON N58 3d7, USA</p>
             </div>
             <div class="clear color-box">
                 <img class="house" src="./images/house.png" alt="house">
@@ -147,12 +151,12 @@
             </span>
         </div>
         <section class="form">
-            <form action="" method="GET">
+            <form action="index.html" method="GET" class="contact-us clear">
                 <input class="inputic name" type="text" placeholder="Name" name="name">
                 <input class="inputic email" type="email" placeholder="Email" name="email">
                 <input class="inputic phone" type="number" placeholder="Telephone" name="telephone">
                 <textarea class="inputic message" name="message" id="message" placeholder="Message"></textarea>
-                <input class="submitic" type="submit" name="submit" value="Submit">
+                <input class="form-button" type="submit" name="submit" value="Submit">
             </form>
         </section>
     </main>
