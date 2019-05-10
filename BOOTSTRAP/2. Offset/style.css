@@ -1,0 +1,32 @@
+.container {
+    padding: 15px;
+    background-color: #ccc;
+    
+}
+.row{
+    margin: 15px;
+    color: white;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: green;
+}
+.third{
+    background-color: blue;
+}
+.firstcol {
+    background-color: grey;
+    border: 1px solid white;
+}
+.secondcol {
+    background-color: grey;
+    border: 1px solid white;
+    
+}
+.thirdcol {
+    background-color: grey;
+    border: 1px solid white;
+    
+}

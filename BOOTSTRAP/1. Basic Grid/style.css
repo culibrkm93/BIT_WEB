@@ -1,0 +1,32 @@
+.container{
+    padding: 15px;
+}
+.row{
+    padding: 15px;
+}
+.first{
+    background-color: goldenrod;
+}
+.first .col9 p,
+.first .col3 p{
+    background-color: cornflowerblue;
+
+}
+.second{
+    background-color: grey;
+}
+.second .col p{
+    background-color: plum;
+}
+.third{
+    background-color: coral;
+}
+.third .col p{
+    background-color: blueviolet;
+}
+p{
+    text-align: center;
+    color: white;
+}
+
+
