@@ -1,0 +1,67 @@
+
+/* div {
+    background-color: slategrey;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    background-color: red;
+}
+
+.turn-off {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: gold;
+}
+
+.change {
+    background-color: bisque;
+} */
+
+.bg{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+.chat {
+    display: inline-block;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.chat div {
+    margin-bottom: 20px;
+}
+
+.chat div span {
+    background-color: #ccc; 
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+.button{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    padding: 2px;
+}
+.chat-line{
+    width: 79%;
+    border: none;
+    height: 20px;
+}
