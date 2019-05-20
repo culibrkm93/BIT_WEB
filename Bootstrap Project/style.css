@@ -163,7 +163,13 @@ footer .last {
     color: white;
     background-color: #00bb9c;
     border-radius: 5px;
-    padding: 2px 5px; } }
+    padding: 2px 5px; }
+  
+    .navbar-nav {
+      font-family: "Lato-Black";
+    }
+  
+  }
 @media screen and (max-width: 1025px) {
   .four {
     width: 60%; }
@@ -176,6 +182,13 @@ footer .last {
     color: white;
     position: relative;
     left: -70px;
-    top: 4px; } }
+    top: 4px; }
+  
+    .navbar-nav {
+      font-family: "Lato-Black";
+    }
+  }
+
+
 
 /*# sourceMappingURL=style.css.map */

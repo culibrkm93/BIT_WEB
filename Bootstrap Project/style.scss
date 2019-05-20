@@ -191,6 +191,9 @@ footer .last {
     border-radius: 5px;
     padding: 2px 5px;
   }
+  .navbar-nav {
+    font-family: "Lato-Black";
+  }
 }
 @media screen and(max-width:1025px) {
   .four {
@@ -205,5 +208,8 @@ footer .last {
     position: relative;
     left: -70px;
     top: 4px;
+  }
+  .navbar-nav {
+    font-family: "Lato-Black";
   }
 }
